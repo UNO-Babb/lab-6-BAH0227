@@ -14,8 +14,7 @@ def main():
     for w in words:
       wordCount = wordCount + 1
     for l in line:
-        letters = len(line) - 1
-        letterCount = letterCount + 1
+      letterCount = letterCount + 1
   
   print("Lines:", lineCount)
   print("Words:", wordCount)
